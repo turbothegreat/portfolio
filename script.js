@@ -3,5 +3,5 @@ let navbar = document.querySelector('.navbar');
 
 menu.onclick = () => {
   navbar.classList.toggle('open');
-  menu.textContent = navbar.classList.contains('open') ? '✖' : '☰'; // toggles between ☰ and ✖
+  menu.textContent = navbar.classList.contains('open') ? '✖' : '☰';
 }
