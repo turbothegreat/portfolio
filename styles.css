@@ -17,8 +17,8 @@ body {
 }
 .nav-link {
   position: relative;
-  color: #fff; /* Or your preferred normal color */
-  padding-bottom: 5px; /* space for underline */
+  color: #fff;
+  padding-bottom: 5px; 
   text-decoration: none;
 }
 
