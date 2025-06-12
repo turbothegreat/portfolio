@@ -62,6 +62,10 @@ body {
   justify-content: center;
   
 }
+.logo-img {
+  height: 60px;
+  width: auto;
+}
 .nav-link::after {
   content: '';
   position: absolute;
