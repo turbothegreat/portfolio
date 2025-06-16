@@ -12,49 +12,70 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <style>
     .game-card {
-      position: relative;
-      overflow: hidden;
-      border-radius: 10px;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-      cursor: pointer;
-    }
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  height: 100%;
+}
 
-    .game-image {
-      width: 100%;
-      height: auto;
-      display: block;
-      transition: transform 0.3s ease-in-out;
-    }
+.game-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.3s ease-in-out;
+}
 
-    .game-card:hover .game-image {
-      transform: scale(1.05);
-    }
+.game-card:hover .game-image {
+  transform: scale(1.05);
+}
 
-    .open-button {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      background-color: #f39c12;
-      color: white;
-      padding: 14px 18px;
-      border-radius: 50%;
-      text-decoration: none;
-      font-weight: bold;
-      opacity: 0;
-      transition: opacity 0.3s ease, transform 0.3s ease;
-    }
+.game-info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  opacity: 0;
+  padding: 20px;
+  transition: opacity 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 
-    .game-card:hover .open-button {
-      opacity: 1;
-      transform: translate(-50%, -50%) scale(1.1);
-    }
+.game-card:hover .game-info {
+  opacity: 1;
+}
 
-    .page-title {
-      text-align: center;
-      font-size: 2.5rem;
-      margin: 40px 0 20px;
-    }
+.game-info h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.game-info p {
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+.open-button {
+  color: white;
+  padding: 10px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.open-button:hover {
+  background-color: #e67e22;
+}
+
   </style>
 </head>
 
@@ -88,18 +109,26 @@
   <div class="container mt-5">
   <div class="row justify-content-between">
     <!-- Game 1 -->
-    <div class="col-md-5">
+    <div class="col-md-6">
       <div class="game-card">
         <img src="images/game1.png" alt="Game 1" class="game-image">
-        <a href="game1.html" class="open-button" target="_blank">Click Me!</a>
+        <div class="game-info">
+          <h3>Wared!</h3>
+          <p>Multiplayer survival game made in Unity. One Must Be Wared!</p>
+          <a href="game1.html" class="open-button" target="_blank">View Game</a>
+        </div>
       </div>
     </div>
 
     <!-- Game 2 -->
-    <div class="col-md-5">
+    <div class="col-md-6">
       <div class="game-card">
         <img src="images/game2.jpeg" alt="Game 2" class="game-image">
-        <a href="game2.html" class="open-button" target="_blank">Click Me!</a>
+        <div class="game-info">
+          <h3>Coin Catcher: Rush Demo</h3>
+          <p>A 2D platformer built with HTML, CSS, and JavaScript. Inspired by the classic Coin Catcher, this fast-paced demo challenges you to catch coins flying across the screen — but miss 5, and it's game over!</p>
+          <a href="game2.html" class="open-button" target="_blank">View Game</a>
+        </div>
       </div>
     </div>
   </div>
