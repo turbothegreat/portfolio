@@ -91,7 +91,7 @@ body {
 }
 .page-title
 {
-  color: #f39c12;
+  color: #ffffff;
 }
 .nav-link:hover::after,
 .nav-link.active::after {
@@ -106,7 +106,7 @@ body {
 }
 .page-banner {
   height: 120px;
-  background-image: url('images/background.png');
+  background-image: url('images/LOGO.jpg');
   background-size: cover;
   background-position: center;
   position: relative;
