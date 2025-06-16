@@ -137,3 +137,29 @@ h1 {
 .fa-twitter {
   color: white;
 }
+
+h1, h2 {
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1);
+  margin-bottom: 20px;
+}
+
+.btn-warning:hover {
+  background-color: #e67e22;
+}
+h1, h2, p, li {
+  color: white;
+}
