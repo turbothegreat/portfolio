@@ -163,3 +163,10 @@ img {
 h1, h2, p, li {
   color: white;
 }
+.custom-modal-bg {
+  background-color: #000000;
+  color: white;
+}
+.white-close {
+  filter: invert(1);
+}
