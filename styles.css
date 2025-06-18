@@ -126,7 +126,6 @@ h1 {
   text-decoration: none;
 }
 
-/* Add a hover effect if you want */
 .fa:hover {
   opacity: 0.7;
 }
@@ -241,4 +240,10 @@ h1, h2, p, li {
 
 .open-button:hover {
   background-color: #e67e22;
+}
+.HEADING
+{
+  font-family: "Darker Grotesque", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400px;
 }
