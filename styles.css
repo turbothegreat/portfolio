@@ -170,3 +170,11 @@ h1, h2, p, li {
 .white-close {
   filter: invert(1);
 }
+.button {
+  background-color: orange;
+  transition: transform 0.3s ease;
+}
+
+.button:hover {
+  transform: scale(1.05);
+}

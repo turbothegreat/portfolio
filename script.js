@@ -5,3 +5,4 @@ menu.onclick = () => {
   navbar.classList.toggle('open');
   menu.textContent = navbar.classList.contains('open') ? '✖' : '☰';
 }
+
